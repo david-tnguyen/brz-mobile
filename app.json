@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "brz-mobile",
+    "slug": "brz-mobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "brz-mobile"
+}
