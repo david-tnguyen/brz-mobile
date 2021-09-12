@@ -28,7 +28,7 @@ export default HomeScreen = ({ navigation }) => {
             onPress={() => navigation.navigate('Details')}
             style={styles.symbolContainer}
           >
-            <Text onPress={() => navigation.navigate('Details')}>{symbol.name}</Text>
+            <Text onPress={() => navigation.navigate('Details', { symbol: symbol.ticker })}>{symbol.name}</Text>
             <Text>{symbol.ticker}</Text>
           </View>
         ))}
